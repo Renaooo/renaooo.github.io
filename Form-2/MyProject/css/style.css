@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,900&display=swap&subset=cyrillic');
+
+* {
+	box-sizing: border-box;;
+}
+
+form {
+height: 330px;
+width: 335px;
+background: linear-gradient(to top, #eeeeee 15%, #fafafa 15%, #fafafa 85%, #03a9f4 85%);
+border-radius: 8px;
+padding: 13px 30px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+	margin: 	0 0 45px 0;
+	font-size: 	24px;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+input {
+	display: block;
+	width: 100%;
+	height: 	40px;
+	margin-bottom: 20px;	
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	padding: 5px;
+	outline: none;
+	padding-right: 50px;
+}
+
+#input-one {
+	background-image: url(../img/email-icon.png);
+	background-repeat: no-repeat;
+	background-position: 97% 50%;
+}
+
+#input-two {
+	background-image: url(../img/lock-icon.png);
+	background-repeat: no-repeat;
+	background-position: 97% 50%;
+}
+
+button {
+	display: block;
+	width: 100%;
+	height: 	40px;
+	margin-bottom: 50px;
+	border: none;
+	background-color: #f44336;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	outline: none;
+}
+
+button:hover {
+	background-color: #fc5448;
+}
+
+p {
+	text-align: center;
+	margin-left: -20px;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#reg {
+	color: black;
+	margin-right: 7px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+#fog-pas {
+	color: #757575;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+img {
+	position: absolute;
+	left: 60px;
+	top: 13px;
+}
