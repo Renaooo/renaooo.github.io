@@ -1,0 +1,110 @@
+main {
+	padding: 106px 108px 137px 142px;
+	background: #e8e8e8 url(..//img/Ellipse_1_copy.png) 60% 15% no-repeat;
+}
+
+.min-text {
+	opacity: 0.6;
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+h1 {
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 50px;
+	text-align: center;
+	margin-bottom: 77px;
+}
+
+.imgp {
+	text-align: center;
+}
+
+img {
+	outline: 10px solid white;
+	margin-bottom: 97px;
+}
+
+.text {
+	opacity: 0.8;
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 40px;
+	margin-bottom: 64px;
+	margin-left: 260px;
+}
+
+ul {
+	font-family: "Arial MT";
+	font-size: 20px;
+	line-height: 36px;
+	margin-left: 260px;
+	margin-bottom: 59px;
+}
+
+li {
+	padding-left: 30px;
+	background: url(../img/check_icon.png) left no-repeat;
+}
+
+#first-li {
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	color: #273d46;
+	font-weight: 400;
+}
+
+#second-li {
+	color: #80b7b3;
+	font-weight: 400;
+	font-style: italic;
+}
+
+#third-li {
+	color: #273d46;
+	font-weight: bold;
+}
+
+#fourth-li span {
+	opacity: 0.3;
+}
+
+#fourth-li {
+	color: #273d46;
+	font-weight: 400;
+	text-decoration: line-through;
+}
+
+button {
+	background: #80b7b3 url(../img/Shape_2.svg) 150px center no-repeat;
+	border-radius: 50px;
+	margin-left: 260px;
+	width: 199px;
+	height: 44px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	/* Fonts */
+	/* Style for "Full Story" */
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: uppercase;
+	/* Text style for "Full Story" */
+	letter-spacing: 2.8px;
+}
+
+.story {
+	margin-left: -25px;
+}
